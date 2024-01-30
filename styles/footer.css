@@ -1,0 +1,28 @@
+.footer__box {
+  height: 457px;
+  border-radius: 15px;
+  margin-top: 140px;
+  background: linear-gradient(90deg, #c1dee8 0%, #fbd9b9 100%);
+  position: relative;
+}
+
+.footer__heading {
+  display: inline-block;
+  margin-top: 56px;
+  margin-left: 43px;
+  font-size: 50px;
+  font-weight: 600;
+}
+.footer__text {
+  width: 526px;
+  margin-top: 18px;
+  margin-left: 43px;
+  margin-bottom: 45px;
+}
+
+.footer__image {
+  width: 606px;
+  position: absolute;
+  top: -30px;
+  right: -40px;
+}
