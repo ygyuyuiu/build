@@ -7,7 +7,7 @@
   border: 2px solid red;
 }
 
-.box {
+.promo__box {
   background: linear-gradient(90deg, #c1dee8 0%, #fbd9b9 100%);
   height: 617px;
   border-radius: 15px;
@@ -15,7 +15,7 @@
   overflow: hidden;
 }
 
-.lable {
+.promo__lable {
   margin-bottom: 15px;
   margin-left: 46px;
   display: inline-block;
@@ -31,7 +31,7 @@
   margin-bottom: 24px;
   line-height: 120%;
 }
-.text {
+.promo__text {
   margin-bottom: 24px;
   margin-left: 46px;
 }
@@ -58,8 +58,6 @@
   width: 147px;
   position: relative;
   left: -80px;
-}
-.promo__box-image {
 }
 .promo__image {
   width: 748.196px;

@@ -1,0 +1,39 @@
+.step {
+}
+.step__box-text {
+  margin-top: 108px;
+}
+.step__lable {
+  display: block;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.heading {
+  font-size: 50px;
+  font-weight: 600;
+}
+.step__heading {
+  display: block;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.step__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.step__card-item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 22px;
+}
+.step__card-image {
+  width: 75px;
+}
+.step__title {
+  font-size: 28px;
+  font-weight: 600;
+}
+.text_w329 {
+  width: 329px;
+}

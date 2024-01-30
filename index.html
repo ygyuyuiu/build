@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/promo.css" />
+    <link rel="stylesheet" href="styles/step.css" />
   </head>
   <body>
     <header class="header">
@@ -62,13 +63,15 @@
       </div>
     </header>
 
-    <div class="promo">
+    <section class="promo">
       <div class="comtainer">
-        <div class="box">
-          <div class="box-text">
-            <lable class="lable lable_mt91">Welcome to Realstate</lable>
+        <div class="promo__box">
+          <div class="promo__box-text">
+            <lable class="lable promo__lable lable_mt91"
+              >Welcome to Realstate</lable
+            >
             <h1 class="promo__heading">Manage Your Property</h1>
-            <p class="text text_w435">
+            <p class="promo__text text_w435">
               Your will have everything nearby supermarket, buses , station, the
               carmen neighborhood, etc
             </p>
@@ -98,6 +101,56 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <section class="step">
+      <div class="container">
+        <div class="step__box-text">
+          <lable class="step__lable">Three steps. Three minutes.</lable>
+          <h2 class="heading step__heading">Everything should be this easy.</h2>
+        </div>
+
+        <div class="step__card">
+          <div class="step__card-item">
+            <img
+              class="step__card-image"
+              src="img/messages.svg"
+              alt="messages-image"
+            />
+            <span class="step__title">Answer questions</span>
+            <p class="step__text text_w329">
+              Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet
+              bibendum in in vestibulum.
+            </p>
+          </div>
+
+          <div class="step__card-item">
+            <img
+              class="step__card-image"
+              src="img/sms-tracking.svg"
+              alt="messages-image"
+            />
+            <span class="step__title">Select a quote</span>
+            <p class="text text_w329">
+              Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet
+              bibendum in in vestibulum.
+            </p>
+          </div>
+
+          <div class="step__card-item">
+            <img
+              class="step__card-image"
+              src="img/edit-2.svg"
+              alt="messages-image"
+            />
+            <span class="step__title">Get registered</span>
+            <p class="text text_w329">
+              Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet
+              bibendum in in vestibulum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
